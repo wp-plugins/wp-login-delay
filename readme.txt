@@ -38,7 +38,7 @@ Just think about it... If you want to pass through a huge door and you have to t
 = 1.1 =
 * Updated the readme file for Wordpress 3.8
 * Renamed a function of the plugin to avoid conflict with WooCommerce plugin
-* Added a setting under Settings > General to set the delay time in seconds (the default value is one second)
+* Added a setting under "Settings > WP Login Delay" to set the delay time in seconds (the default value is one second)
 
 = 1.0 =
 * First version of the plugin

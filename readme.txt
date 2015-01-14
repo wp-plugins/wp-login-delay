@@ -3,9 +3,9 @@ Contributors: michael.damoiseau
 Donate link: http://damoiseau.me/
 Tags: brute-force attack,security,login
 Requires at least: 3.5.1
-Tested up to: 3.8
-Version: 1.1
-Stable tag: 1.1
+Tested up to: 4.1
+Version: 1.2
+Stable tag: 1.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -34,6 +34,9 @@ Just think about it... If you want to pass through a huge door and you have to t
 
 
 == Changelog ==
+
+= 1.2 =
+* Fixed the invalid header issue after installation
 
 = 1.1 =
 * Updated the readme file for Wordpress 3.8

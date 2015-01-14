@@ -3,7 +3,7 @@
 Plugin Name: Wordpress Login Delay
 Plugin URI: http://damoiseau.me
 Description: Adds a one second delay to the login to avoid brute-force attack
-Version: 1.1
+Version: 1.2
 Author: Mike
 Author URI: http://damoiseau.me
 License: GPL2
@@ -31,9 +31,9 @@ if( !function_exists( 'wldelay_auth_login' ) ) {
         } else {
             $delay = WPDelay_Settings::_DEFAULT_DELAY_IN_SECONDS;
         }
-        
+
         sleep( $delay );
-        
+
         return $user;
     }
     add_filter('wp_authenticate_user', 'wldelay_auth_login',1, 2);
